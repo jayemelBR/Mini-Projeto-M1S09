@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="timer.css">
+<title>Timer com Alongamento</title>
+<style>
+  #timerDisplay {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #stretchingExercise {
+    display: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div id="timerDisplay">00:00:05</div>
+<button id="startButton" onclick="startTimer()">Iniciar Timer</button>
+<button id="stopButton" onclick="stopTimer()" style="display: none;">Parar Timer</button>
+
+<div id="stretchingExercise">
+  <p id="exerciseDescription">Faça um alongamento...</p>
+  <button onclick="completeExercise()">Exercício Concluído</button>
+</div>
+<script src="script2.js"></script>
+</body>
+</html>

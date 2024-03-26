@@ -1,0 +1,28 @@
+
+#timerDisplay {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #05b8cf;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #stopButton {
+    display: none;
+  }
+
